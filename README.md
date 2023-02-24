@@ -1,11 +1,9 @@
-# ScoreBoard Project
+# Streamers ScoreBoard Project
 
 ## About
-Scores leaderboard for live updates and make the scores increase randomly. 
-The scores of each player will increase every second, and the leaderboard will automatically change the position of the players according to the scores of each player.
+Streamers scores leaderboard for live updates and make the scores increase randomly. 
+The scores of players will increase every second, and the leaderboard will automatically change the position of the players according to the scores of each player.
 Scores is listed with the player information and animation is applied to list up the player if score is increased from above player.
-
-#### DEMO: [Players LeaderBoard](https://scoreboard-rahuljinexture.vercel.app/)
 
 ## Feature
 Scores Leaderboard: Pass any JSON data of same type and you can see the list of the scorers
@@ -28,7 +26,7 @@ Tools used are Github and CodeSandbox to preview the app online on web
 Download this project zip or clone:
 
 ###### To clone in local system.
-- git clone [https://github.com/inx-rj/scoreboard.git](https://github.com/inx-rj/scoreboard.git)
+- git clone this directory
 
 ###### After succesfully clone follow below steps.
 
@@ -38,7 +36,7 @@ cd proje-dir
 
 #To shift at devlopment branch.
 git fetch
-git checkout devlopment
+git checkout main
 
 # To install all node/npm packages listed in package.json file.
 npm i
