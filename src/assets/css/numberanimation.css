@@ -1,0 +1,27 @@
+/* style class of the number increase number animation */
+.score {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 600;
+  white-space: normal;
+  font-size: 18px;
+  -webkit-transition: 0.5s ease-in-out, color 0s;
+  transition: 0.5s ease-in-out, color 0s;
+}
+
+@media only screen and (max-width: 600px) {
+  .score {
+    width: 45px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .score {
+    width: 35px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
